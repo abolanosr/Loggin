@@ -1,0 +1,83 @@
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+
+    background-image: url('parqueo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+form {
+	background-color: #7b7d7b;
+	border: 1px solid #cccccc;
+	padding: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #803535;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	border: 1px solid #cccccc;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+input[type="iniciar"] {
+	background-color: #56907e;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.boton-IniciarSesion {
+    background-color: #51718e;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.boton-distribucion {
+	background-color: #337ab7;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.boton-regresar{
+    background-color: #337ab7;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 10px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%);
+
+}
+
+  
+.img {
+    display: 35 block;
+    margin: 100 auto;
+  }
+  
